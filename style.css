@@ -1,0 +1,665 @@
+::-webkit-scrollbar { width: 5px }
+    ::-webkit-scrollbar-thumb:vertical { background-color: green }
+
+
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+ }
+  
+ .primeiradiv{
+     height: 40px;
+     background-color: black;
+     width: 100%;
+     position: sticky;
+ }
+  
+ .ligueagora{
+     position: absolute;
+     left: 58%;
+     color: white;
+     top: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .segundadiv{
+     height: 65px;
+     background-color:rgba(0, 0, 0,.60);
+     width: 100%;
+     top: 0;
+     align-items: center;
+     position: sticky;
+     z-index: 2;
+ }
+  
+ .arthur{
+     position: absolute;
+     margin-top: -5rem;
+     z-index: -1;
+     max-width: 100%;
+     
+ }
+  
+ ul{
+     display: flex;
+     color: white;
+     justify-content: center;
+     margin-top: -2rem;
+     margin-left: 20rem;
+ }
+  
+ li{
+     padding: 9.8px 17.5px;
+     list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+ }
+  
+ .opcoes{
+  position: absolute;
+  left: 48rem;
+  top: 15px;
+ }
+ .arearestritatexto{
+  
+     padding: 9.8px 17.5px;
+     list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    left: 85rem ;
+    top: 15.75px;
+ }
+  
+ .logo{
+     margin-left: 14rem;
+ }
+ 
+
+ .banner h2{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 2.375em;
+}
+ 
+.banner p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+
+.botao{
+    display: block;
+    margin-top: 2em;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    background: #40aa0b;
+    cursor: pointer;
+    width: 21%;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    max-width: 73.9375em;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 7rem;
+    position: relative;
+}
+
+.escolha {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.escolha h2 {
+    text-align: center;
+    color: black;
+   margin-top: 9% ;
+   font-size: 2.5em;
+}
+
+.escolha p {
+    color: #424242;
+    font-size: 18px;
+text-align: center;
+}
+
+.caixa1 {
+    display: flex;
+    justify-content: center;
+    gap: 1pc;
+    border-radius: 10px 10px 0 0;
+    margin-top: 3.5rem;
+}
+
+.bloco1 {
+display: block;
+box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+width: 288px;
+height: 310px;
+border-radius: 10px;
+
+
+}
+
+.img1 img {
+    margin-top: 0;
+    width: 18pc;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+h3 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin-bottom: 0.02em;
+    font-size: 1.375em;
+    font-weight: 900;
+    position: absolute;
+   TOP: 100.5%;
+    margin-left: 10px;
+}
+
+
+
+
+.blck img {
+    width: 2.5pc;
+    border-radius: 10px 10px 10px 10px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+h4 {
+    font-size: 14px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+   margin-left: 10px;
+ margin-bottom: 3px;
+}
+
+h4.sub:hover, h4.sub:active {
+
+    color: #40aa0b;
+
+
+}
+
+.blck {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bloco2 {
+    display: block;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+    width: 288px;
+    height: 360px;
+    border-radius: 10px;
+    }
+
+.img2 img {
+    margin-top: 0;
+    width: 18pc;
+    border-radius: 10px 10px 0 0;
+}
+
+.img3 img {
+    margin-top: 0;
+    width: 18pc;
+    border-radius: 10px 10px 0 0;
+}
+
+.bloco3 {
+    display: block;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+    width: 295px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+
+    .img4 img {
+        margin-top: 0;
+        width: 18pc;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .bloco4 {
+        display: block;
+        box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+        width: 288px;
+        height: 270px;
+        border-radius: 10px;
+    }
+    
+    .unidades {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        display: block;
+        margin-top: 20px;
+    }
+    
+    .unidades h2 {
+        text-align: center;
+        color: black;
+       margin-top: 2.7rem;
+       font-size: 2.5em;
+    }
+    
+    .unidades p {
+        color: #424242;
+        font-size: 18px;
+    text-align: center;
+    }
+
+    .caixa2 {
+        display: flex;
+        justify-content: center;
+        gap: 1pc;
+        border-radius: 10px 10px 0 0;
+        margin-top: 3.5rem;
+    }  
+
+    .block1 {
+        display: block;
+        box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+        width: 380px;
+        height: 340px;
+        border-radius: 10px;
+    }
+
+.predio {
+width: 100%;
+border-radius: 10px 10px 0 0;
+}
+
+ h2 {
+ font-size: 20px;   
+ }
+
+.barroca {
+    margin-left: 10px;
+}
+
+.central {
+text-align: center;
+margin-top: 70px;
+
+}
+
+.central h6 {
+    color: #40aa0b;
+    margin-top: -10px;
+    font-weight: 900;
+    font-size: 2.5pc;
+}
+
+.central h5 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+
+.news h1 {
+    font-weight: 900;
+    text-align: center;
+    color: #111;
+    font-size: 2.5em;
+    margin-top: 70px;
+}
+
+.caixa3 {
+    display: flex;
+    justify-content: center;
+    gap: 2.5pc;
+    border-radius: 10px 10px 0 0;
+    margin-top: 40px;
+}  
+
+.breakone {
+    display: block;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+    width: 289px; height:324px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: fill;
+    
+
+}
+
+.breakone img {
+    width: auto;
+    border-radius: 20px;
+
+}
+
+.breakone img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out .4s;
+cursor: pointer;
+}
+
+.breakone h1 {
+    text-align: left;
+font-size: 16px;
+line-height: 23px;
+color: white;
+position: relative;
+bottom: 125px;
+left: 10px;
+}
+
+.breakone em {
+    text-align: left;
+    font-size: .75em;
+line-height: 23px;
+color: white;
+position: relative;
+bottom: 125px;
+left: 10px;
+}
+
+.rodape {
+    background: #151515;
+    margin-top: 50px;
+    width: 100%;
+    height: 33pc;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sobre ol strong {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sobre {
+display: block;
+text-align: center;
+margin: 5px 0;
+padding: 0 3em 0 0;
+margin-left: 7%;
+position: absolute;
+top: 2350PX;
+
+}
+
+.sobre ol li {
+    display: block;
+    padding: 5px 15px;
+    font-size: .875em;
+    color: #bdbdbd;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.cursos ol strong {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cursos {
+display: block;
+text-align: center;
+padding: 0 3em 0 0;
+margin-left: 21%;
+position: absolute;
+top: 2350px;
+}
+
+.cursos ol li {
+    display: block;
+    padding: 5px 15px;
+    font-size: .875em;
+    color: #bdbdbd;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: left;
+}
+
+
+.outros ol strong {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.outros {
+display: block;
+text-align: center;
+padding: 0 3em 0 0;
+margin-left: 42%;
+position: absolute;
+top: 2350px;
+}
+
+.outros ol li {
+    display: block;
+    padding: 5px 15px;
+    font-size: .875em;
+    color: #bdbdbd;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.caminho {
+
+    display: block;
+text-align: center;
+padding: 0 3em 0 0;
+margin-left: 65%;
+position: absolute;
+top: 2350px;
+
+}
+
+.caminho strong {
+    font-size: 16px;
+    color: white;
+}
+
+.caminho p {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #9e9e9e;
+    text-align: left;
+}
+
+.botao2{
+    display: block;
+    margin-top: 2em;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    background: #40aa0b;
+    cursor: pointer;
+    width: 21%;
+    font-family: 'Lato', sans-serif;
+    margin-left: 65%;
+    position: absolute;
+    top: 2480px;
+}
+
+
+.desen img {
+    display: block;
+    text-align: left;
+    margin: 5px 0;
+    padding: 0 3em 0 0;
+    margin-left: 6%;
+    margin-top: 90px;
+    position: absolute;
+    TOP: 2500PX;
+    LEFT: 60PX;
+}
+
+.desen p {
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+    font-size: .75em;
+    margin-left: 6%;
+    position: absolute;
+    TOP: 2660PX;
+    LEFT: 60PX;
+}
+
+.colegio {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-align: left;
+   margin-top: -120px;
+   margin-left: 39%;
+   position: absolute;
+    TOP: 2730PX;
+}
+
+.redes {
+display: flex;
+flex-direction: row;
+margin-top: -100px;
+   margin-left: 39%;
+   gap: 1pc;
+   position: absolute;
+    TOP: 2660PX;
+}
+
+.face {
+    display: block;
+    margin-top: 100px;
+}
+
+.faceicon {
+    border-radius: 8px;
+background-color: #4460a0;
+width: 60px;
+height: 40px;
+text-align: center;
+}
+
+.faceicon img {
+    padding-top: 8px;
+}
+
+.face p {
+    color: #424242;
+    font-size: 11px;
+    text-align: center;
+}
+
+.igicon {
+
+    border-radius: 8px;
+background-color: white;
+width: 60px;
+height: 40px;
+text-align: center;
+}
+
+.igicon img {
+    padding-top: 8px;
+}
+
+.lkicon {
+
+    border-radius: 8px;
+background-color: #007ab9;
+width: 60px;
+height: 40px;
+text-align: center;
+}
+
+.lkicon img {
+    padding-top: 5px;
+}
+
+.tticon {
+border-radius: 8px;
+background-color: #00aaec;
+width: 60px;
+height: 40px;
+text-align: center;
+}
+
+.tticon img {
+    padding-top: 10px;
+}
+
+.facul {
+
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-align: left;
+   margin-top: -120px;
+   margin-left: 65%;
+   position: absolute;
+    TOP: 2730PX;
+}
+
+.redes2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -100px;
+    margin-left: 65%;
+    gap: 1pc;
+    position: absolute;
+    TOP: 2660PX;
+}
+
+
+.home li :hover{
+ 
+    color: #40aa0b;
+    transition-duration: 0.2s
+ 
+}
+.ligueagora a{
+    color: white;
+    text-decoration: none;
+}
+ 
+.ligueagora a:hover{
+    text-decoration: underline;
+}
+ 
